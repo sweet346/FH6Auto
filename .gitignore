@@ -17,7 +17,7 @@ build/
 obf_temp/
 *.spec
 dist/
-
+cache/
 other/
 
 # ========================
