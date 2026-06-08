@@ -3794,6 +3794,10 @@ class FH_UltimateBot(ctk.CTk):
         time.sleep(0.8)
         self.hw_press("down")
         time.sleep(0.4)
+        self.hw_press("down")
+        time.sleep(0.4)
+        self.hw_press("down")
+        time.sleep(0.4)
 
         pos_22b = self.wait_for_image(
             "consumablecar.png",
